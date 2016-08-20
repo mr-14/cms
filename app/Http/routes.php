@@ -14,3 +14,5 @@
 Route::auth();
 
 Route::get('/', 'HomeController@index');
+
+Route::get('/posts', 'PostController@showList');
