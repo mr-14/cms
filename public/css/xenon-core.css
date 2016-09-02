@@ -3162,6 +3162,9 @@ body.chat-open #chat {
 .panel .panel-heading > .panel-options .nav-tabs > li.active > a {
   color: #4b4b4b;
 }
+.panel .panel-heading > .panel-options .btn {
+  margin-bottom: 0;
+}
 .panel .panel-body {
   padding: 0;
   padding-top: 20px;

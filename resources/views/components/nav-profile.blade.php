@@ -1,6 +1,6 @@
 <li class="dropdown user-profile">
 	<a href="#" data-toggle="dropdown">
-		<img src="images/user-4.png" alt="user-image" class="img-circle img-inline userpic-32" width="28" />
+		<img src="{{ url('images/user-4.png') }}" alt="user-image" class="img-circle img-inline userpic-32" width="28" />
 		<span>
 			{{ Auth::user()->name }}
 			<i class="fa-angle-down"></i>

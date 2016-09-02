@@ -14,7 +14,7 @@
 					
 					<div class="user-image">
 						<a href="extra-profile.html">
-							<img src="images/user-2.png" class="img-responsive img-circle" />
+							<img src="{{ url('images/user-2.png') }}" class="img-responsive img-circle" />
 						</a>
 					</div>
 					

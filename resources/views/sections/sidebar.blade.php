@@ -10,11 +10,11 @@
 			<!-- logo -->
 			<div class="logo">
 				<a href="dashboard-1.html" class="logo-expanded">
-					<img src="images/logo@2x.png" width="80" alt="" />
+					<img src="{{ url('images/logo@2x.png') }}" width="80" alt="" />
 				</a>
 				
 				<a href="dashboard-1.html" class="logo-collapsed">
-					<img src="images/logo-collapsed@2x.png" width="40" alt="" />
+					<img src="{{ url('images/logo-collapsed@2x.png') }}" width="40" alt="" />
 				</a>
 			</div>
 			
@@ -48,7 +48,7 @@
 			<li>
 				<a href="{{ url('posts') }}">
 					<i class="linecons-note"></i>
-					<span class="title">Posts</span>
+					<span class="title">文章管理</span>
 				</a>
 			</li>
 <!--
